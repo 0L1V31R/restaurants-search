@@ -1,0 +1,58 @@
+{
+        "env": {
+        "browser": true,
+        "jest": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+    },
+    "plugins": [
+        "react", "react-hooks"
+    ],
+    "rules": {
+        "react/jsx-props-no-spreading": ["off"],
+    "no-confusing-arrow": [
+      "error",
+      {
+        "allowParens": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/jsx-one-expression-per-line": 0,
+    "react/sort-prop-types": [
+      "error",
+      {
+        "ignoreCase": false
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": ["config"]
+      }
+    ],
+    "sort-imports": "off",
+    "import/no-unresolved": 0,
+    "react/prop-types": "off",
+    "no-shadow": "off",
+    "indent": "off",
+    "react/jsx-closing-bracket-location": "off",
+    "import/prefer-default-export": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/style-prop-object": "off",
+    "react/jsx-closing-bracket": "off",
+    "arrow-parens": "off",
+    "object-curly-newline": "off"
+    }
+}
