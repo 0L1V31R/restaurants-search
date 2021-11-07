@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-bind */
 import React, { useEffect } from 'react';
 
 import Portal from './Portal';
