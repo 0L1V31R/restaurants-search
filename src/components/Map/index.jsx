@@ -4,7 +4,7 @@ import { GoogleApiWrapper, Map, Marker } from 'google-maps-react';
 export const MapContainer = (props) => {
   const { google } = props;
 
-  return <Map google={google} centerAroundCurrentLocation />;
+  return <Map google={google} centerAroundCurrentLocationgi />;
 };
 
 export default GoogleApiWrapper({
